@@ -64,11 +64,14 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             transition={{ delay: 0.3, duration: 0.5 }}
             className="mb-6 flex justify-center"
           >
-            <div className="bg-amber-100 p-3 rounded-full shadow-md border border-amber-200">
+            <div className="flex flex-col items-center gap-10">
+            <div className="bg-amber-100 p-3 w-64 rounded-full shadow-md border border-amber-200">
               <div className="bg-amber-800 text-amber-100 rounded-full p-4 flex items-center justify-center">
                 <span className="text-2xl font-bold">{"gr".toUpperCase()}</span>
                 <span className="text-2xl ml-1 font-bold">{"celebration".toUpperCase()}</span>
               </div>
+            </div>
+              <p className="text-amber-800 w-96">1/1-3, E.A.T Street Basavanagudi Beside Sri Guru Raghavendra Stores Near Shyamsingh Nursing Home Bengaluru - 560 004</p>
             </div>
           </motion.div>
 
