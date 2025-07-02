@@ -71,7 +71,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
                 <span className="text-2xl ml-1 font-bold">{"celebration".toUpperCase()}</span>
               </div>
             </div>
-              <p className="text-amber-800 w-96">1/1-3, E.A.T Street Basavanagudi Beside Sri Guru Raghavendra Stores Near Shyamsingh Nursing Home Bengaluru - 560 004</p>
+              <p className="text-amber-800 max-w-96">1/1-3, E.A.T Street Basavanagudi Beside Sri Guru Raghavendra Stores Near Shyamsingh Nursing Home Bengaluru - 560 004</p>
             </div>
           </motion.div>
 
