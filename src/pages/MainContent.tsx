@@ -1,5 +1,5 @@
 import {AnimatePresence, motion} from "framer-motion";
-import VisitorCounter from "../components/VisitorCounter";
+// import VisitorCounter from "../components/VisitorCounter";
 import ScrollAnimatedCardGrid from "../components/ScrollAnimatedCardGrid";
 import About from "./About";
 import ShareButton from "../components/ShareButton";
@@ -18,7 +18,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
       transition={{ duration: 0.8 }}
       className="py-4 px-4 sm:px-6 lg:px-8"
     >
-         <VisitorCounter />
+         {/* <VisitorCounter /> */}
          {/* logo */}
             <div className="flex z-50 justify-between">
           {/*share button here */}
