@@ -217,7 +217,7 @@ const LandingScreen = () => {
         transition={{ duration: 1, delay: 1.2 }}
       >
         <div className={`image-cropper ${isMobile ? 'w-64' : 'w-48'}`}>
-          <img src="/images/Gr_logo.png" alt="GR Celebrations Logo" />
+          <img src="/images/Gr_logo.png" alt="GR CELEBRATTIONS Logo" />
         </div>
         <motion.div
   initial={{ opacity: 0, y: 10 }}

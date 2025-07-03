@@ -81,7 +81,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
     GURUCHARAN
   </div>
   <div className="text-center text-amber-800 font-serif tracking-widest text-xl font-bold drop-shadow">
-    G. R. CELEBRATIONS
+    G. R. CELEBRATTIONS
   </div>
 </div>
 
@@ -125,7 +125,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
       textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
     }}
   >
-    GURUCHARAN G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY 3.0 
+    GURUCHARAN G.R. CELEBRATTIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY 3.0 
   </motion.h1>
 </motion.div>
 
