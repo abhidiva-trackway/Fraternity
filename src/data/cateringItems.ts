@@ -147,7 +147,7 @@ export const cateringItems: CateringItem[] = [
     id: '29',
     name: 'Pepper Rasam',
     description: 'Spicy pepper rasam',
-    category: 'Soup'
+    category: 'Main Course'
   },
   {
     id: '27',
