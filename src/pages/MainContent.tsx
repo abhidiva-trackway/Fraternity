@@ -95,25 +95,25 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             </button>
           </motion.div>
 
-          <motion.div
-            initial={{ scaleY: 0 }}
-            animate={{ scaleY: 1 }}
-            transition={{ duration: 0.8, ease: [0.2, 0.65, 0.3, 0.9] }}
-            className="overflow-hidden mb-2"
-          >
-            <motion.h1
-              initial={{ y: -50, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-4 font-serif"
-              style={{ 
-                fontFamily: "'Playfair Display', serif",
-                textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
-              }}
-            >
-              Welcome to Bangalore Wedding Fraternity
-            </motion.h1>
-          </motion.div>
+         <motion.div
+  initial={{ scaleY: 0 }}
+  animate={{ scaleY: 1 }}
+  transition={{ duration: 0.8, ease: [0.2, 0.65, 0.3, 0.9] }}
+  className="overflow-hidden mb-2"
+>
+  <motion.h1
+    initial={{ y: -50, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+    transition={{ duration: 0.8, delay: 0.3 }}
+    className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] xl:text-5xl font-bold text-amber-900 mb-4 font-serif leading-tight md:leading-snug"
+    style={{ 
+      fontFamily: "'Playfair Display', serif",
+      textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
+    }}
+  >
+    GURUCHARANS G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY
+  </motion.h1>
+</motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
@@ -128,7 +128,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
               className="text-xl md:text-2xl text-amber-800/90 max-w-3xl mx-auto px-4 relative leading-relaxed"
             >
               <span className="relative z-10">
-                Authentic flavors to make your special day truly memorable.
+                COME FEAST. CONNECT. CELEBRATE
               </span>
               <motion.span
                 initial={{ scaleX: 0 }}

@@ -8,32 +8,20 @@ export const cateringItems: CateringItem[] = [
     category: 'Beverage'
   },
   {
-    id: '2',
-    name: 'Starter',
-    description: 'Assorted starter items',
-    category: 'Starter'
-  },
-  {
-    id: '3',
-    name: 'Normal Mineral Water',
-    description: 'Bottled mineral water',
-    category: 'Beverage'
-  },
-  {
     id: '4',
-    name: 'Magaj seeds Payasa ',
-    description: 'Served in Gaju - glass bowl & topped with Chikki (Lonavala chikki)',
+    name: 'Maga seeds Payasam with Ground nut Chikki.',
+    description: '',
     category: 'Dessert'
   },
   {
     id: '5',
-    name: 'Litchi Rabadi White chocolate igloo',
+    name: 'Litchi chocolate igloo',
     description: 'Served in fine bone China crockery and dessert spoon steel',
     category: 'Dessert'
   },
   {
     id: '6',
-    name: 'Badam halwa packed in plantain leaf',
+    name: 'Badam halwa',
     description: 'Traditional (small gold spoon tried)',
     category: 'Dessert'
   },
@@ -51,25 +39,25 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '9',
-    name: 'Channa Papadi Kosambari',
+    name: 'Channa papadi salad',
     description: 'Traditional salad preparation',
     category: 'Salad'
   },
   {
     id: '10',
-    name: 'Cucumber Bites Kosambari',
+    name: 'Cucumber Bites',
     description: 'Refreshing cucumber salad',
     category: 'Salad'
   },
   {
     id: '11',
-    name: 'Hamus Cups',
+    name: 'Crunchy Hummus',
     description: 'Savory hummus served in cups',
     category: 'Starter'
   },
   {
     id: '12',
-    name: 'Heart Shape Watermelon Salad',
+    name: 'Watermelon Salad',
     description: 'Watermelon cut into heart shapes for presentation',
     category: 'Salad'
   },
@@ -80,12 +68,6 @@ export const cateringItems: CateringItem[] = [
     category: 'Salad'
   },
   {
-    id: '14',
-    name: 'Beetroot dumpling',
-    description: 'Savory beetroot dumplings',
-    category: 'Starter'
-  },
-  {
     id: '15',
     name: 'Korean chilly garlic potato',
     description: 'Spicy Korean-style potatoes',
@@ -93,19 +75,19 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '16',
-    name: 'Palak stuffed Pakoda',
+    name: 'Aloo Palak stuffed Pakoda',
     description: 'Masala mix in Pudina Chutney',
     category: 'Starter'
   },
   {
     id: '17',
-    name: 'Kofta Paddu (Paneer & Beetroot)',
+    name: 'Kofta Paddu',
     description: 'Paneer and beetroot koftas',
     category: 'Starter'
   },
   {
     id: '18',
-    name: 'Blue pea Flower Akki roti – mini size',
+    name: 'Blue pea Flower Akki roti',
     description: 'Bluepea Rice Flavor',
     category: 'Main Course'
   },
@@ -117,31 +99,31 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '20',
-    name: 'Butter garlic paratha (coin size)',
+    name: 'Butter garlic paratha ',
     description: 'Mini butter garlic parathas',
     category: 'Main Course'
   },
   {
     id: '21',
-    name: 'Capsicum ring stuffed Mexican uthappam',
-    description: 'Mexican inspired uthappam – small size',
+    name: 'RING CAPSICUM STUFFED MEXICAN UTHAPPAM',
+    description: 'Mexican inspired uthappam small size',
     category: 'Main Course'
   },
   {
     id: '22',
-    name: 'Side Dish for Dosa Chilly Mayonnaise',
+    name: 'Chilly mayonnaise',
     description: 'Spicy mayonnaise accompaniment for dosa',
     category: 'Side Dish'
   },
   {
     id: '23',
-    name: 'Pal Pongal ',
+    name: 'Pal pongal with bottle guard sagoo',
     description: 'served in earthen pot huruli with Sorekayi sago',
     category: 'Main Course'
   },
   {
     id: '24',
-    name: 'One main course rice',
+    name: 'Avakkayi and Gongoora rice',
     description: 'Traditional rice preparation',
     category: 'Main Course'
   },
@@ -153,13 +135,14 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '26',
-    name: 'Dum aloo Poppu ',
+    name: 'Dum Aloo poppu koora',
     description: 'Koora rice served in earthen pot with potato peel fries topping',
     category: 'Main Course'
   },
+  // not undestand
   {
     id: '27',
-    name: 'Chia seeds curd Rice',
+    name: 'Chia seeds beetroot curds',
     description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
     category: 'Main Course'
   },

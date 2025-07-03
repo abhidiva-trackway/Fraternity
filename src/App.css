@@ -4,6 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+html, body {
+  touch-action: manipulation;
+  overscroll-behavior: contain;
+}
 
 .logo {
   height: 6em;
