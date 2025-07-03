@@ -81,10 +81,9 @@ const LandingScreen = () => {
   }, [controls]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-gradient-to-b from-pink-50 to-white">
-      <FallingFlowers />
+    <div className="relative pt-96 w-full h-screen overflow-hidden bg-gradient-to-b from-pink-50 to-white">
 
-      <div className="absolute inset-0 bg-pink-50 bg-opacity-20 z-0"></div>
+      <div className="absolute inset-0 mt-96 bg-pink-50 bg-opacity-20 z-0"></div>
 
       {/* Door - Responsive sizing */}
       <motion.div
@@ -234,7 +233,7 @@ const LandingScreen = () => {
   transition={{ duration: 1, delay: 1.3 }}
   className={`${isMobile ? 'text-lg' : 'text-2xl'} text-pink-500 mt-1 font-serif tracking-widest font-medium italic`}
 >
-  {"GR CELEBRATTIONS"}
+  {"G.R. CELEBRATTIONS"}
 </motion.div>
 
       </motion.div>
