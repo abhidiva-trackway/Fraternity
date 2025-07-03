@@ -65,12 +65,26 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             className="mb-6 flex justify-center"
           >
             <div className="flex flex-col items-center gap-10">
-            <div className="bg-amber-100 p-3 w-64 rounded-full shadow-md border border-amber-200">
-              <div className="bg-amber-800 text-amber-100 rounded-full p-4 flex items-center justify-center">
-                <span className="text-2xl font-bold">{"gr".toUpperCase()}</span>
-                <span className="text-2xl ml-1 font-bold">{"celebration".toUpperCase()}</span>
-              </div>
-            </div>
+            <div className="flex flex-col items-center space-y-2">
+  {/* Circular Gr Logo */}
+  <div className="bg-gradient-to-br from-pink-300 via-white to-blue-300 p-1 rounded-full shadow-lg">
+    <div className="bg-purple-900 rounded-full image-cropper flex items-center justify-center border-4 border-white">
+      <img src="/images/Gr_logo.png" alt="" />
+    </div>
+  </div>
+
+  {/* Since 1972 */}
+  <div className="text-sm text-gray-500 tracking-wide italic">Since 1972</div>
+
+  {/* Business Name */}
+  <div className="text-center text-amber-800 font-serif tracking-widest text-xl font-bold drop-shadow">
+    GURUCHARAN
+  </div>
+  <div className="text-center text-amber-800 font-serif tracking-widest text-xl font-bold drop-shadow">
+    G. R. CELEBRATIONS
+  </div>
+</div>
+
               <p className="text-amber-800 max-w-96">1/1-3, E.A.T Street Basavanagudi Beside Sri Guru Raghavendra Stores Near Shyamsingh Nursing Home Bengaluru - 560 004</p>
             </div>
           </motion.div>
@@ -111,7 +125,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
       textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
     }}
   >
-    GURUCHARAN G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY
+    GURUCHARAN G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY 3.0 
   </motion.h1>
 </motion.div>
 
