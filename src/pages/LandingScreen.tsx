@@ -234,7 +234,7 @@ const LandingScreen = () => {
   transition={{ duration: 1, delay: 1.3 }}
   className={`${isMobile ? 'text-lg' : 'text-2xl'} text-pink-500 mt-1 font-serif tracking-widest font-medium italic`}
 >
-  {"GR CELEBRATION"}
+  {"GR CELEBRATTIONS"}
 </motion.div>
 
       </motion.div>
