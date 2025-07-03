@@ -27,55 +27,7 @@ const LandingScreen = () => {
 
   const isMobile = windowSize.width < 768;
 
-  const FallingFlowers = () => {
-  const flowers = ['🌸', '🌿', '🍂', '🌼', '🌺', '🥀'];
-  const flowerGroups = 4; // Increased number of groups
-  const flowersPerGroup = 12; // More flowers per group
 
-  return (
-    <>
-      {[...Array(flowerGroups)].map((_, groupIndex) => (
-        [...Array(flowersPerGroup)].map((_, i) => {
-          const flowerIndex = (groupIndex + i) % flowers.length;
-          return (
-            <motion.div
-              key={`${groupIndex}-${i}`}
-              className="absolute text-4xl z-50 pointer-events-none"
-              style={{
-                left: `${Math.random() * 100}%`,
-                color: `rgba(255, 230, 150, ${0.7 + Math.random() * 0.3})`, // Higher opacity
-                fontSize: `${2 + Math.random() * 2}rem`,
-                filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
-                opacity: 0.9 // Base high opacity
-              }}
-              initial={{ 
-                y: -50 - (Math.random() * 150),
-                x: Math.random() * 200 - 100,
-                opacity: 0.7, // Start visible
-                rotate: Math.random() * 360
-              }}
-              animate={{ 
-                y: windowSize.height + 100,
-                x: `+=${Math.random() * 60 - 30}`,
-                opacity: [0.7, 0.9, 0.7], // Always stays visible
-                rotate: 1080 * (Math.random() > 0.5 ? 1 : -1) // Faster spin
-              }}
-              transition={{
-                duration: 3 + Math.random() * 2, // Even faster (3-5 seconds)
-                repeat: Infinity,
-                delay: groupIndex, // Smaller delay between groups
-                ease: "linear",
-                repeatDelay: 1 // Short pause before restart
-              }}
-            >
-              {flowers[flowerIndex]}
-            </motion.div>
-          );
-        })
-      ))}
-    </>
-  );
-};
   useEffect(() => {
     controls.start("visible");
   }, [controls]);
