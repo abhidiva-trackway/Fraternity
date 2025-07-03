@@ -141,12 +141,6 @@ export const cateringItems: CateringItem[] = [
   },
   // not undestand
   {
-    id: '27',
-    name: 'Chia seeds beetroot curds',
-    description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
-    category: 'Main Course'
-  },
-  {
     id: '28',
     name: 'White Rice',
     description: 'Plain steamed rice',
@@ -157,6 +151,12 @@ export const cateringItems: CateringItem[] = [
     name: 'Pepper Rasam',
     description: 'Spicy pepper rasam',
     category: 'Soup'
+  },
+  {
+    id: '27',
+    name: 'Chia seeds beetroot curds',
+    description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
+    category: 'Main Course'
   },
   {
     id: '30',

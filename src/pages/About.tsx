@@ -40,14 +40,14 @@ const About = () => {
                   <h3 className="text-2xl font-semibold text-amber-800 mb-4">Our Story</h3>
                   <p className="text-amber-900/90 mb-4 leading-relaxed">
                     Founded by <span className="font-semibold">Gurucharan C.G</span> <br/>
-                    We are GR CELEBRATTIONS, your go-to team for catering orders.
+                    We are GR CELEBRATIONS, your go-to team for catering orders.
                   </p>
                   <div className="space-y-4 text-amber-900/90 leading-relaxed">
                     <p className="font-semibold text-amber-800">
-                      GR CELEBRATTIONS – A Symphony of Tradition, Taste & Thoughtfulness
+                      GR CELEBRATIONS – A Symphony of Tradition, Taste & Thoughtfulness
                     </p>
                     <p>
-                      At GR CELEBRATTIONS we don't just serve food—we craft experiences. Rooted in the vibrant heritage of South India and reimagined with inventive flair, our culinary philosophy is simple: celebrate tradition, innovate with elegance, and nourish mindfully.
+                      At GR CELEBRATIONS we don't just serve food—we craft experiences. Rooted in the vibrant heritage of South India and reimagined with inventive flair, our culinary philosophy is simple: celebrate tradition, innovate with elegance, and nourish mindfully.
                     </p>
                     <p>
                       We've been serving delicious food and sweets across Karnataka, Tamil Nadu, Telangana, and Andhra Pradesh and we absolutely love being part of your special moments, whether it's weddings, housewarming functions, or any big celebration.
@@ -103,7 +103,7 @@ const About = () => {
                     <div>
                       <h5 className="text-lg font-semibold text-amber-800 mb-2">Every Event Deserves a Culinary Masterpiece</h5>
                       <p className="text-amber-900/90 leading-relaxed">
-                        From cozy gatherings to grand galas, GURUCHARAN GR CELEBRATTIONS turns moments into memories with exceptional food and flawless service.
+                        From cozy gatherings to grand galas, GURUCHARAN GR CELEBRATIONS turns moments into memories with exceptional food and flawless service.
                       </p>
                     </div>
                     
@@ -137,7 +137,7 @@ const About = () => {
               >
                 <h3 className="text-2xl font-semibold text-amber-800 mb-4">Celebrate with Us</h3>
                 <p className="text-amber-900/90 mb-4">
-                  Partner with GR CELEBRATTIONS for a tasteful experience and unforgettable service. Let's create something extraordinary together.
+                  Partner with GR CELEBRATIONS for a tasteful experience and unforgettable service. Let's create something extraordinary together.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <a

@@ -111,7 +111,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
       textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
     }}
   >
-    GURUCHARANS G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY
+    GURUCHARAN G.R. CELEBRATIONS WARMLY WELCOMES YOU TO THE SOUL OF BANGALORE WEDDING FRATERNITY
   </motion.h1>
 </motion.div>
 
