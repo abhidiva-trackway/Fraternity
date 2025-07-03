@@ -38,17 +38,24 @@ export const cateringItems: CateringItem[] = [
     category: 'Salad'
   },
   {
-    id: '9',
-    name: 'Channa papadi salad',
-    description: 'Traditional salad preparation',
-    category: 'Salad'
-  },
-  {
     id: '10',
     name: 'Cucumber Bites',
     description: 'Refreshing cucumber salad',
     category: 'Salad'
   },
+  {
+    id: '13',
+    name: 'Somtam salad',
+    description: 'Served in Cup - traditional Thai salad',
+    category: 'Salad'
+  },
+  {
+    id: '9',
+    name: 'Channa papadi salad',
+    description: 'Traditional salad preparation',
+    category: 'Salad'
+  },
+  
   {
     id: '11',
     name: 'Crunchy Hummus',
@@ -56,12 +63,7 @@ export const cateringItems: CateringItem[] = [
     category: 'Starter'
   },
   
-  {
-    id: '13',
-    name: 'Somtam salad',
-    description: 'Served in Cup - traditional Thai salad',
-    category: 'Salad'
-  },
+  
   {
     id: '15',
     name: 'Korean chilly garlic potato',
@@ -118,13 +120,13 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '24',
-    name: 'Avakkayi and Gongoora rice',
+    name: 'Avakai & Gongura Rice',
     description: 'Traditional rice preparation',
     category: 'Main Course'
   },
   {
     id: '26',
-    name: 'Dum Aloo poppu koora',
+    name: 'Dum Aloo Poppu Koora Rice',
     description: 'Koora rice served in earthen pot with potato peel fries topping',
     category: 'Main Course'
   },
@@ -155,7 +157,7 @@ export const cateringItems: CateringItem[] = [
   },
   {
     id: '31',
-    name: 'Ice Cream',
+    name: 'Gudbud Ice Cream',
     description: 'Delicious frozen dessert',
     category: 'Dessert'
   }

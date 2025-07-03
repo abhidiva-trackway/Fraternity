@@ -31,13 +31,13 @@ const About = () => {
     {/* Intro Text */}
     <p className="text-amber-900/90 mb-4 text-lg leading-relaxed">
       Founded by <span className="font-semibold">Gurucharan C.G</span><br />
-      We are <span className="font-bold">GR CELEBRATIONS</span>, your go-to team for any catering needs.
+      We are <span className="font-bold">GR CELEBRATTIONS</span>, your go-to team for any catering needs.
     </p>
 
     {/* Story Highlights */}
     <div className="space-y-5 text-amber-900/90 leading-relaxed text-base">
       <p className="font-semibold text-amber-800 text-lg">
-        GR CELEBRATIONS – A Symphony of Tradition, Taste & Thoughtfulness
+        GR CELEBRATTIONS – A Symphony of Tradition, Taste & Thoughtfulness
       </p>
 
       <p>

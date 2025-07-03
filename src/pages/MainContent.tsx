@@ -138,9 +138,9 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="text-xl md:text-2xl text-amber-800/90 max-w-3xl mx-auto px-4 relative leading-relaxed"
+              className="text-lg md:text-2xl text-amber-800/90 max-w-3xl mx-auto px-4 relative leading-relaxed"
             >
-              <span className="relative z-10">
+              <span className="relative z-10 ">
                 COME... FEAST.. CONNECT.. CELEBRATE..
               </span>
               <motion.span
