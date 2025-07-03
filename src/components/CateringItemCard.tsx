@@ -22,6 +22,13 @@ const CateringItemCard = ({ item, index }: CateringItemCardProps) => {
     'spicy': '🌶️',
     'gluten-free': '🌾'
   };
+function capitalizeWords(input: string): string {
+  return input
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
 
   const getCategoryIcon = () => {
     const lowerCategory = item.category.toLowerCase();
@@ -101,7 +108,7 @@ const CateringItemCard = ({ item, index }: CateringItemCardProps) => {
                 transition={{ delay: 0.2 }}
                 className="text-2xl font-bold text-amber-900 font-serif tracking-tight"
               >
-                {item.name}
+                {capitalizeWords(item.name)}
               </motion.h3>
               <motion.div 
                 className="h-[2px] bg-gradient-to-r from-amber-300 to-amber-500 rounded-full mt-2 w-12"

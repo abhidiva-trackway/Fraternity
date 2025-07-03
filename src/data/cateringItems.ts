@@ -2,14 +2,8 @@ import type { CateringItem } from "../types";
 
 export const cateringItems: CateringItem[] = [
   {
-    id: '1',
-    name: 'Juice',
-    description: 'Refreshing juice for members',
-    category: 'Beverage'
-  },
-  {
     id: '4',
-    name: 'Maga seeds Payasam with Ground nut Chikki.',
+    name: 'Magaj seeds Payasam with Ground nut Chikki.',
     description: '',
     category: 'Dessert'
   },
@@ -38,6 +32,12 @@ export const cateringItems: CateringItem[] = [
     category: 'Condiment'
   },
   {
+    id: '12',
+    name: 'Watermelon Salad',
+    description: 'Watermelon cut into heart shapes for presentation',
+    category: 'Salad'
+  },
+  {
     id: '9',
     name: 'Channa papadi salad',
     description: 'Traditional salad preparation',
@@ -55,12 +55,7 @@ export const cateringItems: CateringItem[] = [
     description: 'Savory hummus served in cups',
     category: 'Starter'
   },
-  {
-    id: '12',
-    name: 'Watermelon Salad',
-    description: 'Watermelon cut into heart shapes for presentation',
-    category: 'Salad'
-  },
+  
   {
     id: '13',
     name: 'Somtam salad',
@@ -95,7 +90,7 @@ export const cateringItems: CateringItem[] = [
     id: '19',
     name: 'Kala Jamoon Gojju',
     description: 'Sweet and savory preparation',
-    category: 'Main Course'
+    category: 'Side Dish'
   },
   {
     id: '20',
@@ -126,12 +121,6 @@ export const cateringItems: CateringItem[] = [
     name: 'Avakkayi and Gongoora rice',
     description: 'Traditional rice preparation',
     category: 'Main Course'
-  },
-  {
-    id: '25',
-    name: 'Gravy or Raitha',
-    description: 'Accompaniment for main course',
-    category: 'Side Dish'
   },
   {
     id: '26',

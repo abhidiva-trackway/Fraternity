@@ -33,9 +33,9 @@ const LandingScreen = () => {
   }, [controls]);
 
   return (
-    <div className="relative pt-96 w-full h-screen overflow-hidden bg-gradient-to-b from-pink-50 to-white">
+    <div className="relative w-full h-screen overflow-hidden bg-gradient-to-b from-pink-50 to-white">
 
-      <div className="absolute inset-0 mt-96 bg-pink-50 bg-opacity-20 z-0"></div>
+      <div className="absolute inset-0 bg-pink-50 bg-opacity-20 z-0"></div>
 
       {/* Door - Responsive sizing */}
       <motion.div
@@ -162,7 +162,7 @@ const LandingScreen = () => {
 
       {/* Logo and Text - Responsive adjustments */}
       <motion.div
-        className="absolute flex justify-center flex-col items-center top-[15%] md:top-72 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-30"
+        className="absolute flex justify-center flex-col w-full items-center top-[15%] md:top-72 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-30"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1.2 }}
@@ -179,14 +179,23 @@ const LandingScreen = () => {
   {"GURUCHARAN"}
 </motion.div>
 
-<motion.div
-  initial={{ opacity: 0, y: 10 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 1.3 }}
-  className={`${isMobile ? 'text-lg' : 'text-2xl'} text-pink-500 mt-1 font-serif tracking-widest font-medium italic`}
->
-  {"G.R. CELEBRATTIONS"}
-</motion.div>
+<motion.p
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+              className="text-xl md:text-2xl text-pink-600  mx-auto px-4 relative leading-relaxed"
+            >
+              <span className="relative z-10">
+                {"G.R. CELEBRATTIONS"}
+              </span>
+              <motion.span
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                transition={{ duration: 0.6, delay: 1.2 }}
+                className="absolute bottom-1 left-0 right-0 h-1 bg-amber-400/50 z-0"
+                style={{ originX: 0 }}
+              />
+            </motion.p>
 
       </motion.div>
     </div>

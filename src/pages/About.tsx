@@ -14,47 +14,41 @@ const About = () => {
             className="max-w-4xl mx-auto"
           >
             <div className="bg-white/50 backdrop-blur-sm rounded-xl shadow-md p-8 border border-amber-200/50">
-              <motion.h2 
-                className="text-3xl font-bold text-amber-900 mb-6 font-serif text-center"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.2 }}
-              >
-                About Our Catering Service
-              </motion.h2>
+             
               
-              <motion.div
-                className="flex flex-col md:flex-row gap-8 mb-8"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.4 }}
-              >
-                <div className="md:w-1/3 flex justify-center">
-                  <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-amber-200 shadow-lg">
-                    <div className="bg-amber-100 w-full h-full flex items-center justify-center text-amber-800 text-5xl">
-                      <img src="/images/Gr_logo.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <div className="md:w-2/3">
-                  <h3 className="text-2xl font-semibold text-amber-800 mb-4">Our Story</h3>
-                  <p className="text-amber-900/90 mb-4 leading-relaxed">
-                    Founded by <span className="font-semibold">Gurucharan C.G</span> <br/>
-                    We are GR CELEBRATTIONS, your go-to team for catering orders.
-                  </p>
-                  <div className="space-y-4 text-amber-900/90 leading-relaxed">
-                    <p className="font-semibold text-amber-800">
-                      GR CELEBRATTIONS – A Symphony of Tradition, Taste & Thoughtfulness
-                    </p>
-                    <p>
-                      At GR CELEBRATTIONS we don't just serve food—we craft experiences. Rooted in the vibrant heritage of South India and reimagined with inventive flair, our culinary philosophy is simple: celebrate tradition, innovate with elegance, and nourish mindfully.
-                    </p>
-                    <p>
-                      We've been serving delicious food and sweets across Karnataka, Tamil Nadu, Telangana, and Andhra Pradesh and we absolutely love being part of your special moments, whether it's weddings, housewarming functions, or any big celebration.
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
+             <motion.div
+  className="flex flex-col md:flex-row gap-8 mb-12 px-4 md:px-0"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.4 }}
+>
+  <div className="md:w-3/3 mx-auto">
+    {/* Section Heading */}
+    <h3 className="text-3xl text-center font-bold text-amber-800 mb-4 font-serif border-b-2 border-amber-300 pb-2">
+      Our Story
+    </h3>
+
+    {/* Intro Text */}
+    <p className="text-amber-900/90 mb-4 text-lg leading-relaxed">
+      Founded by <span className="font-semibold">Gurucharan C.G</span><br />
+      We are <span className="font-bold">GR CELEBRATIONS</span>, your go-to team for any catering needs.
+    </p>
+
+    {/* Story Highlights */}
+    <div className="space-y-5 text-amber-900/90 leading-relaxed text-base">
+      <p className="font-semibold text-amber-800 text-lg">
+        GR CELEBRATIONS – A Symphony of Tradition, Taste & Thoughtfulness
+      </p>
+
+      <p>
+At GR CELEBRATTIONS we don't just serve food—we craft experiences. Rooted in the vibrant heritage of South India and reimagined with inventive flair, our culinary philosophy is simple: celebrate tradition, innovate with elegance, and nourish mindfully.      </p>
+
+      <p>
+     We've been serving delicious food and sweets across Karnataka, Tamil Nadu, Telangana, and Andhra Pradesh and we absolutely love being part of your special moments, whether it's weddings, housewarming functions, or any big celebration.      </p>
+    </div>
+  </div>
+</motion.div>
+
 
               <motion.div
                 className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8"
@@ -160,7 +154,7 @@ const About = () => {
                   </a>
                 </div>
                 <p className="mt-4 text-amber-800/80 text-sm">
-                  Gurucharan C.G | Proprietor
+                  Gurucharan C.G 
                 </p>
               </motion.div>
             </div>
