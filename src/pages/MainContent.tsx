@@ -135,22 +135,23 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             className="relative inline-block"
           >
             <motion.p
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="text-lg md:text-2xl text-amber-800/90 max-w-3xl mx-auto px-4 relative leading-relaxed"
-            >
-              <span className="relative z-10 ">
-                COME... FEAST.. CONNECT.. CELEBRATE..
-              </span>
-              <motion.span
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{ duration: 0.6, delay: 1.2 }}
-                className="absolute bottom-1 left-0 right-0 h-2 bg-amber-200/50 z-0"
-                style={{ originX: 0 }}
-              />
-            </motion.p>
+  initial={{ y: 20, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.8, delay: 0.8 }}
+  className="text-sm sm:text-base md:text-lg xl:text-xl text-amber-800/90 max-w-full mx-auto px-4 relative leading-relaxed whitespace-nowrap overflow-hidden"
+>
+  <span className="relative z-10">
+    COME... FEAST.. CONNECT.. CELEBRATE..
+  </span>
+  <motion.span
+    initial={{ scaleX: 0 }}
+    animate={{ scaleX: 1 }}
+    transition={{ duration: 0.6, delay: 1.2 }}
+    className="absolute bottom-1 left-0 right-0 h-2 bg-amber-200/50 z-0"
+    style={{ originX: 0 }}
+  />
+</motion.p>
+
           </motion.div> :""
 }
           {/* Contact Buttons - Fixed on mobile */}

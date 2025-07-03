@@ -20,6 +20,12 @@ export const cateringItems: CateringItem[] = [
     category: 'Dessert'
   },
   {
+    id: 'x1',
+    name: 'Mango cheese cake',
+    description: 'Traditional (small gold spoon tried)',
+    category: 'Dessert'
+  },
+  {
     id: '7',
     name: 'Pink salt',
     description: 'Himalayan pink salt for seasoning',
@@ -53,7 +59,7 @@ export const cateringItems: CateringItem[] = [
     id: '9',
     name: 'Channa papadi salad',
     description: 'Traditional salad preparation',
-    category: 'Salad'
+    category: 'Main Course'
   },
   
   {
@@ -148,6 +154,19 @@ export const cateringItems: CateringItem[] = [
     name: 'Chia seeds beetroot curds',
     description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
     category: 'Main Course'
+  },
+  {
+    id: 'x2',
+    name: 'Pudina pani',
+    description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
+    category: 'Drink'
+  },
+  {
+ id: 'x3',
+    name: 'Chocolate Dates Beeda',
+    description: 'Traditional curd rice with chia seeds served in small size wine glass topped with curd chilly',
+    category: 'Digestive'
+
   },
   {
     id: '30',

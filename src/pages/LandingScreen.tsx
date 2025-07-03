@@ -183,7 +183,7 @@ const LandingScreen = () => {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="text-xl md:text-2xl text-pink-600  mx-auto px-4 relative leading-relaxed"
+              className="text-lg md:text-2xl text-pink-600 font-semibold font-serif tracking-widest   mx-auto px-4 relative drop-shadow-sm leading-relaxed"
             >
               <span className="relative z-10">
                 {"G.R. CELEBRATTIONS"}
