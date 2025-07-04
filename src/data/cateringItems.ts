@@ -59,7 +59,7 @@ export const cateringItems: CateringItem[] = [
     id: '9',
     name: 'Channa papadi salad',
     description: 'Traditional salad preparation',
-    category: 'Main Course'
+    category: 'Salad'
   },
   
   {
@@ -98,7 +98,7 @@ export const cateringItems: CateringItem[] = [
     id: '19',
     name: 'Kala Jamoon Gojju',
     description: 'Sweet and savory preparation',
-    category: 'Side Dish'
+    category: 'Seed'
   },
   {
     id: '20',
@@ -172,7 +172,7 @@ export const cateringItems: CateringItem[] = [
     id: '30',
     name: 'Mini Papad',
     description: 'Crispy mini papads',
-    category: 'Side Dish'
+    category: 'accompaniment'
   },
   {
     id: '31',
