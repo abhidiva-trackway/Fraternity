@@ -30,7 +30,7 @@ const About = () => {
 
     {/* Intro Text */}
     <p className="text-amber-900/90 mb-4 text-lg leading-relaxed">
-      Founded by <span className="font-semibold">Gurucharan C.G</span><br />
+      Founded by <span className="font-semibold">Gurucharan C.G.</span><br />
       We are <span className="font-bold">GR CELEBRATTIONS</span>, your go-to team for any catering needs.
     </p>
 
@@ -154,7 +154,7 @@ At GR CELEBRATTIONS we don't just serve food—we craft experiences. Rooted in t
                   </a>
                 </div>
                 <p className="mt-4 text-amber-800/80 text-sm">
-                  Gurucharan C.G 
+                  Gurucharan C.G.
                 </p>
               </motion.div>
             </div>

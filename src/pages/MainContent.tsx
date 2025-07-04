@@ -67,8 +67,8 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             <div className="flex flex-col items-center gap-10">
               <div className="flex flex-col items-center space-y-2">
                 {/* Circular Gr Logo */}
-                <div className="bg-gradient-to-br from-pink-300 via-white to-blue-300 p-1 rounded-full shadow-lg">
-                  <div className="bg-purple-900 rounded-full image-cropper flex items-center justify-center border-4 border-white">
+                <div className="bg-gradient-to-br rounded-full shadow-lg">
+                  <div className="bg-purple-900 rounded-full image-cropper flex items-center justify-center">
                     <img src="/images/Gr_logo.png" alt="" />
                   </div>
                 </div>
