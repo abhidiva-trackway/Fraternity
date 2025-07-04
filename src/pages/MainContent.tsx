@@ -140,9 +140,19 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
   transition={{ duration: 0.8, delay: 0.8 }}
   className="text-sm sm:text-base md:text-lg xl:text-xl text-amber-800/90 max-w-full mx-auto px-4 relative leading-relaxed whitespace-nowrap overflow-hidden"
 >
-  <span className="relative z-10">
-    COME... FEAST.. CONNECT.. CELEBRATE..
-  </span>
+  <div className="relative z-10">
+    COME... <br/>
+    <motion.span
+    initial={{ scaleX: 0 }}
+    animate={{ scaleX: 1 }}
+    transition={{ duration: 0.6, delay: 1.2 }}
+    className="absolute bottom-1 w-20 m-auto left-0 right-0 h-2 bg-amber-200/50 z-0"
+    style={{ originX: 0 }}
+  />
+  </div>
+  <div className="relative z-10">
+     FEAST.. CONNECT.. CELEBRATE..
+  </div>
   <motion.span
     initial={{ scaleX: 0 }}
     animate={{ scaleX: 1 }}
@@ -242,7 +252,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
       >
         <div className="mb-4">
           <p className="text-sm md:text-base mb-2">
-            Click here to get your menu today -{' '}
+            Get Smart QR & E-Cards -{' '}
             <a
               href="https://api.whatsapp.com/send?phone=916363797685&text=Enquiring%20about%20custom%20QR%20codes"
               target="_blank"
