@@ -10,7 +10,7 @@ const ShareButton = () => {
       const shareData = {
         title: 'Bangalore Wedding Fraternity Catering',
         text: 'Check out this amazing catering service for weddings and events!',
-        url: 'https://fraternity-one.vercel.app/',
+        url: 'https://fraternity-xi.vercel.app',
       };
 
       if (navigator.share) {
@@ -27,7 +27,7 @@ const ShareButton = () => {
     } catch (err) {
       console.error('Share failed:', err);
       const textArea = document.createElement('textarea');
-      textArea.value = 'https://fraternity-one.vercel.app/';
+      textArea.value = 'https://fraternity-xi.vercel.app';
       document.body.appendChild(textArea);
       textArea.select();
       document.execCommand('copy');
