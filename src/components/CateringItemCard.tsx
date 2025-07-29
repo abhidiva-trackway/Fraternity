@@ -23,7 +23,8 @@ const CateringItemCard = ({ item, index }: CateringItemCardProps) => {
     'gluten-free': '🌾',
     'thamboola':'🥥',
     'drink':'🥤',
-    'welcome-drink':'🍹'
+    'welcome-drink':'🍹',
+    'paan':'🌿'
   };
 function capitalizeWords(input: string): string {
   return input
