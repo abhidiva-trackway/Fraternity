@@ -5,7 +5,7 @@ export const cateringItems: CateringItem[] = [
     id: '1',
     name: 'Kala Jamoon Shots',
     description: '',
-    category: 'Welcome Drink'
+    category: 'Welcome-drink'
   },
   {
     id: '2',
@@ -173,13 +173,13 @@ export const cateringItems: CateringItem[] = [
     id: '29',
     name: 'Garden Salad',
     description: '',
-    category: 'Salads'
+    category: 'Salad'
   },
   {
     id: '30',
     name: 'Mexican Salad',
     description: '',
-    category: 'Salads'
+    category: 'Salad'
   },
   {
     id: '31',
@@ -209,6 +209,6 @@ export const cateringItems: CateringItem[] = [
     id: '35',
     name: 'Thamboola',
     description: '',
-    category: 'Paan'
+    category: 'thamboola'
   }
 ];
