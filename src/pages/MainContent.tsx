@@ -118,7 +118,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] xl:text-5xl font-bold text-amber-900 mb-4 font-serif leading-tight md:leading-snug"
+              className="text-3xl sm:text-6xl md:text-6xl lg:text-[2.5rem] xl:text-7xl font-bold text-amber-900 mb-4 font-serif leading-tight md:leading-snug"
               style={{
                 fontFamily: "'Playfair Display', serif",
                 textShadow: '2px 2px 4px rgba(0,0,0,0.05)'

@@ -42,7 +42,7 @@ const LandingScreen = () => {
         className="absolute top-[50vh] md:top-[60vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
         initial={{ scale: isMobile ? 3 : 2.5, opacity: 0 }}
         animate={{ scale: isMobile ? 1.8 : 1.5, opacity: 1 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
       >
         <img
           src={Background}
@@ -61,8 +61,8 @@ const LandingScreen = () => {
           y: [0, isMobile ? -15 : -30, 0]
         }}
         transition={{
-          x: { duration: 1.5, delay: 0.3 },
-          opacity: { duration: 1.5, delay: 0.3 },
+          x: { duration: 0.7, delay: 0.3 },
+          opacity: { duration: 0.7, delay: 0.3 },
           y: { 
             duration: 4, 
             repeat: Infinity, 
@@ -88,8 +88,8 @@ const LandingScreen = () => {
           y: [0, isMobile ? 15 : 30, 0]
         }}
         transition={{
-          x: { duration: 1.5, delay: 0.6 },
-          opacity: { duration: 1.5, delay: 0.6 },
+          x: { duration: 0.7, delay: 0.6 },
+          opacity: { duration: 0.7, delay: 0.6 },
           y: { 
             duration: 5, 
             repeat: Infinity, 
@@ -116,7 +116,7 @@ const LandingScreen = () => {
         }}
         transition={{
           x: { duration: 1 },
-          opacity: { duration: 1.5 },
+          opacity: { duration: 0.7 },
           y: {
             duration: 8,
             repeat: Infinity,
@@ -143,7 +143,7 @@ const LandingScreen = () => {
         }}
         transition={{
           x: { duration: 1 },
-          opacity: { duration: 1.5 },
+          opacity: { duration: 0.7 },
           y: {
             duration: 10,
             repeat: Infinity,
