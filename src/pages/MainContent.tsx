@@ -150,7 +150,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
     style={{ originX: 0 }}
   />
   </div> */}
-  <div className="relative z-10">
+  <div className="relative z-10 text-4xl">
      Today's Menu
   </div>
   <motion.span
@@ -158,11 +158,11 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
     animate={{ scaleX: 1 }}
     transition={{ duration: 0.6, delay: 1.2 }}
     className="absolute bottom-1 left-0 right-0 h-2 bg-amber-200/50 z-0"
-    style={{ originX: 0 }}
+    style={{ originX: 0 }}  
   />
 </motion.p>
 
-          </motion.div> :""
+          </motion.div> :null
 }
           {/* Contact Buttons - Fixed on mobile */}
           <motion.div
@@ -196,7 +196,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
-            className="h-1 bg-gradient-to-r from-transparent via-amber-500/70 to-transparent my-8 mx-auto max-w-md"
+            className="h-1 bg-gradient-to-r from-transparent via-amber-500/70 to-transparent  mx-auto max-w-md"
           />
         </div>
       </header>
