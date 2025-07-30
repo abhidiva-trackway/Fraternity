@@ -8,9 +8,9 @@ const ShareButton = () => {
   const handleShare = async () => {
     try {
       const shareData = {
-        title: 'Bangalore Wedding Fraternity Catering',
-        text: 'Check out this amazing catering service for weddings and events!',
-        url: 'https://fraternity-xi.vercel.app',
+        title: 'Veditha 💍 Eshwar Wedding Feast',
+        text: 'Celebrate this special day with a curated menu of exquisite vegetarian delights, served with love and tradition.',
+        url: 'https://bizvizcards.com/miniwebsite/GRCELEBRATTIONS',
       };
 
       if (navigator.share) {
@@ -27,7 +27,7 @@ const ShareButton = () => {
     } catch (err) {
       console.error('Share failed:', err);
       const textArea = document.createElement('textarea');
-      textArea.value = 'https://fraternity-xi.vercel.app';
+      textArea.value = 'https://bizvizcards.com/miniwebsite/GRCELEBRATTIONS';
       document.body.appendChild(textArea);
       textArea.select();
       document.execCommand('copy');
