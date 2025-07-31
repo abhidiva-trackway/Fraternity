@@ -9,20 +9,17 @@ interface CateringItemCardProps {
 const CateringItemCard = ({ item, index }: CateringItemCardProps) => {
   const direction = index % 2 === 0 ? -1 : 1;
   const categoryIcons = {
-   "welcome-drink": "🍹",
-  "starter": "🍢",
+  "sweets": "🍬",
   "chats": "🧆",
-  "soup": "🍜",
-  "north breads & gravies": "🍞",
-  "south breads & accompaniments": "🍚",
-  "main course": "🍽",
-  "accompaniments": "🧂",
-  "salad": "🥗",
+  "condiments": "🧂",
+  "salads": "🥗",
+  "vegetable palya": "🥕",
+  "starters": "🍢",
+  "accompaniments": "🥄",
+  "main course": "🍽️",
+  "drink": "🥤",
   "dessert": "🍰",
-  "paan": "🌿",
-  "thamboola": "🥥",
-  "drink":'🥤'
-
+  "paan": "🌿"
   };
 function capitalizeWords(input: string): string {
   return input

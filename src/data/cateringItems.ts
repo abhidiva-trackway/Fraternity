@@ -3,212 +3,182 @@ import type { CateringItem } from "../types";
 export const cateringItems: CateringItem[] = [
   {
     id: '1',
-    name: 'Kala Jamoon Shots',
+    name: 'Berries Special Payasa',
     description: '',
-    category: 'Welcome-drink'
+    category: 'Sweets'
   },
   {
     id: '2',
-    name: 'Sameeza',
+    name: 'Chocolate Cocoon',
     description: '',
-    category: 'Starter'
+    category: 'Sweets'
   },
   {
     id: '3',
-    name: 'Lacha Aloo Tikki',
+    name: 'Bhele Holige + Mango Srikarni',
     description: '',
     category: 'Chats'
   },
   {
     id: '4',
-    name: 'Banarasi Tomatar Ki Chat',
+    name: 'Salt',
     description: '',
-    category: 'Chats'
+    category: 'Condiments'
   },
   {
     id: '5',
-    name: 'Delhi ki Golgappe',
+    name: 'Fresh Mango Pickle',
     description: '',
-    category: 'Chats'
+    category: 'Condiments'
   },
   {
     id: '6',
-    name: 'Live Pasta Counter',
+    name: 'Amtekayi Pickle',
     description: '',
-    category: 'Chats'
+    category: 'Condiments'
   },
   {
     id: '7',
-    name: 'Corriander Garlic Soup',
+    name: 'ChannaChoor Chat',
     description: '',
-    category: 'Soup'
+    category: 'Salads'
   },
   {
     id: '8',
-    name: 'Cream of Badam & Broccoli Soup with Oregano Flakes',
+    name: 'Watermelon Kuliya Kosambari',
     description: '',
-    category: 'Soup'
+    category: 'Salads'
   },
   {
     id: '9',
-    name: 'Palak Tawa Soft Naan with Red Chili Flakes',
+    name: 'Crackling Spinach Palya',
     description: '',
-    category: 'North Breads & Gravies'
+    category: 'Vegetable Palya'
   },
   {
     id: '10',
-    name: 'Tawa Vegetables',
+    name: 'Hot Salad',
     description: '',
-    category: 'North Breads & Gravies'
+    category: 'Salads'
   },
   {
     id: '11',
-    name: 'Betroot lacha Parota',
+    name: 'PaanPatha Chat',
     description: '',
-    category: 'North Breads & Gravies'
+    category: 'Starters'
   },
   {
     id: '12',
-    name: 'Paneer Tikka Masala',
+    name: 'Tovve',
     description: '',
-    category: 'North Breads & Gravies'
+    category: 'Accompaniments'
   },
   {
     id: '13',
-    name: 'Madurai Masala Dosa',
+    name: 'Pineapple Gojju',
     description: '',
-    category: 'South Breads'
+    category: 'Accompaniments'
   },
   {
     id: '14',
-    name: 'Coconut Chutney',
+    name: 'Malnad Akki Roti',
     description: '',
-    category: 'South Breads'
+    category: 'Main Course'
   },
   {
     id: '15',
-    name: 'Appam Dosa',
+    name: 'Batani Hithakavare',
     description: '',
-    category: 'South Breads'
+    category: 'Main Course'
   },
   {
     id: '16',
-    name: 'Vegetable Stew',
+    name: 'Coconut Rice – Side Rice',
     description: '',
-    category: 'South Breads'
+    category: 'Main Course'
   },
   {
     id: '17',
-    name: 'Candy Idly with Neer Chutney and Chutney Pudi Topping',
+    name: 'Bucket Paneer Biryani',
     description: '',
-    category: 'South Breads'
+    category: 'Main Course'
   },
   {
     id: '18',
-    name: 'Raw Banana Fry Manchurian',
-    description: '',
-    category: 'Starters'
-  },
-  {
-    id: '19',
-    name: 'Tawa Hara Paneer',
-    description: '',
-    category: 'Starters'
-  },
-  {
-    id: '20',
-    name: 'Sweet Counter',
-    description: '',
-    category: 'Dessert'
-  },
-  {
-    id: '21',
-    name: 'Tawa Andhra Rice with small Onion',
-    description: '',
-    category: 'Main Course'
-  },
-  {
-    id: '22',
-    name: 'Cashew peas Pulav',
-    description: '',
-    category: 'Main Course'
-  },
-  {
-    id: '23',
     name: 'Plain Gravy',
     description: '',
     category: 'Main Course'
   },
   {
-    id: '24',
+    id: '19',
     name: 'White Rice',
     description: '',
     category: 'Main Course'
   },
   {
-    id: '25',
-    name: 'Pepper Rasam',
+    id: '20',
+    name: 'Majjige Huli',
     description: '',
     category: 'Main Course'
   },
   {
-    id: '26',
-    name: 'Assorted Sandige',
+    id: '21',
+    name: 'Curd Chilli',
     description: '',
     category: 'Accompaniments'
+  },
+  {
+    id: '22',
+    name: 'Coriander Rasam',
+    description: '',
+    category: 'Main Course'
+  },
+  {
+    id: '23',
+    name: 'Aralu Sandige',
+    description: '',
+    category: 'Accompaniments'
+  },
+  {
+    id: '24',
+    name: 'Digestive Drink',
+    description: '',
+    category: 'Drink'
+  },
+  {
+    id: '25',
+    name: 'Khara After Lunch',
+    description: '',
+    category: 'Condiment'
+  },
+  {
+    id: '26',
+    name: 'Finger Bowl',
+    description: '',
+    category: 'Condiment'
   },
   {
     id: '27',
-    name: 'Red Rice Curd Rice',
-    description: '',
-    category: 'Accompaniments'
-  },
-  {
-    id: '28',
-    name: 'Pickle Counter - 2 Varieties',
-    description: '',
-    category: 'Accompaniments'
-  },
-  {
-    id: '29',
-    name: 'Garden Salad',
-    description: '',
-    category: 'Salad'
-  },
-  {
-    id: '30',
-    name: 'Mexican Salad',
-    description: '',
-    category: 'Salad'
-  },
-  {
-    id: '31',
-    name: 'Ideal Gudbud From Mangalore',
-    description: '',
-    category: 'Dessert'
-  },
-  {
-    id: '32',
-    name: 'Imported Fruits Counter',
-    description: '',
-    category: 'Dessert'
-  },
-  {
-    id: '33',
     name: 'Water Bottle',
     description: '',
     category: 'Drink'
   },
   {
-    id: '34',
-    name: 'Maghai Pan',
+    id: '28',
+    name: 'Naturals Blue Berry Ice Cream',
+    description: '',
+    category: 'Dessert'
+  },
+  {
+    id: '29',
+    name: 'Paan Shots',
     description: '',
     category: 'Paan'
   },
   {
-    id: '35',
+    id: '30',
     name: 'Thamboola',
     description: '',
-    category: 'thamboola'
+    category: 'Paan'
   }
 ];
