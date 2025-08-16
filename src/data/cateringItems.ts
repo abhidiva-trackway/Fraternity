@@ -1,182 +1,211 @@
 import type { CateringItem } from "../types";
-
 export const cateringItems: CateringItem[] = [
   {
     id: '1',
-    name: 'Berries Special Payasa',
+    name: 'Litchi and Passion Fruit Popping Boba /Mango Strawberry Milk Shake',
     description: '',
-    category: 'Sweets'
+    category: 'Welcome Drink'
   },
   {
     id: '2',
-    name: 'Chocolate Cocoon',
-    description: '',
-    category: 'Sweets'
-  },
-  {
-    id: '3',
-    name: 'Bhele Holige + Mango Srikarni',
-    description: '',
-    category: 'Chats'
-  },
-  {
-    id: '4',
-    name: 'Salt',
-    description: '',
-    category: 'Condiments'
-  },
-  {
-    id: '5',
-    name: 'Fresh Mango Pickle',
-    description: '',
-    category: 'Condiments'
-  },
-  {
-    id: '6',
-    name: 'Amtekayi Pickle',
-    description: '',
-    category: 'Condiments'
-  },
-  {
-    id: '7',
-    name: 'ChannaChoor Chat',
-    description: '',
-    category: 'Salads'
-  },
-  {
-    id: '8',
-    name: 'Watermelon Kuliya Kosambari',
-    description: '',
-    category: 'Salads'
-  },
-  {
-    id: '9',
-    name: 'Crackling Spinach Palya',
-    description: '',
-    category: 'Vegetable Palya'
-  },
-  {
-    id: '10',
-    name: 'Hot Salad',
-    description: '',
-    category: 'Salads'
-  },
-  {
-    id: '11',
-    name: 'PaanPatha Chat',
+    name: 'American Corn Paneer Spring Roll',
     description: '',
     category: 'Starters'
   },
   {
-    id: '12',
-    name: 'Tovve',
+    id: '3',
+    name: 'Mexican Pockets',
     description: '',
-    category: 'Accompaniments'
+    category: 'Starters'
+  },
+  {
+    id: '4',
+    name: 'Live Barbeque – Malai Brocolli,Paneer,Dum Aloo,Baby Corn',
+    description: '',
+    category: 'Starters'
+  },
+  {
+    id: '5',
+    name: 'Banarasi Tamatar Ki chat',
+    description: '',
+    category: 'Chats'
+  },
+  {
+    id: '6',
+    name: 'Lacha Aloo Tikki',
+    description: '',
+    category: 'Chats'
+  },
+  {
+    id: '7',
+    name: 'Floating Pani Poori',
+    description: '',
+    category: 'Chats'
+  },
+  {
+    id: '8',
+    name: 'RR Puri',
+    description: '',
+    category: 'Chats'
+  },
+  {
+    id: '9',
+    name: 'Manchow soup with crispy noodles',
+    description: '',
+    category: 'Soup'
+  },
+  {
+    id: '10',
+    name: 'Chur Chur Naan- Amritsari',
+    description: '',
+    category: 'North Breads & Gravies'
+  },
+  {
+    id: '11',
+    name: 'Paneer burji - Amritsari gravy',
+    description: '',
+    category: 'North Breads & Gravies'
+  },
+  {
+    id: '12',
+    name: 'Mini Batura',
+    description: '',
+    category: 'North Breads & Gravies'
   },
   {
     id: '13',
-    name: 'Pineapple Gojju',
+    name: 'Chole masala authentic Amritsari',
     description: '',
-    category: 'Accompaniments'
+    category: 'North Breads & Gravies'
   },
   {
     id: '14',
-    name: 'Malnad Akki Roti',
+    name: 'Rava Idly + Ghee',
     description: '',
-    category: 'Main Course'
+    category: 'South Breads with Accompaniments'
   },
   {
     id: '15',
-    name: 'Batani Hithakavare',
+    name: 'Vegetable Sagoo',
     description: '',
-    category: 'Main Course'
+    category: 'South Breads with Accompaniments'
   },
   {
     id: '16',
-    name: 'Coconut Rice – Side Rice',
+    name: 'Coriander Chutney',
     description: '',
-    category: 'Main Course'
+    category: 'South Breads with Accompaniments'
   },
   {
     id: '17',
-    name: 'Bucket Paneer Biryani',
+    name: 'Davanagere benne kali + aloo palya',
+    description: '',
+    category: 'South Breads with Accompaniments'
+  },
+  {
+    id: '18',
+    name: 'Davanagere chutney',
+    description: '',
+    category: 'South Breads with Accompaniments'
+  },
+  {
+    id: '19',
+    name: 'water chestnut Manchurian',
+    description: '',
+    category: 'Starters'
+  },
+  {
+    id: '20',
+    name: 'Sweet Counter',
+    description: '',
+    category: 'Desserts'
+  },
+  {
+    id: '21',
+    name: 'Cashew Peas Pulav',
     description: '',
     category: 'Main Course'
   },
   {
-    id: '18',
+    id: '22',
     name: 'Plain Gravy',
     description: '',
     category: 'Main Course'
   },
   {
-    id: '19',
-    name: 'White Rice',
-    description: '',
-    category: 'Main Course'
-  },
-  {
-    id: '20',
-    name: 'Majjige Huli',
-    description: '',
-    category: 'Main Course'
-  },
-  {
-    id: '21',
-    name: 'Curd Chilli',
-    description: '',
-    category: 'Accompaniments'
-  },
-  {
-    id: '22',
-    name: 'Coriander Rasam',
-    description: '',
-    category: 'Main Course'
-  },
-  {
     id: '23',
-    name: 'Aralu Sandige',
+    name: 'Tawa Gongoora avakai rice with Sambar Onion',
     description: '',
-    category: 'Accompaniments'
+    category: 'Main Course'
   },
   {
     id: '24',
-    name: 'Digestive Drink',
+    name: 'Chutney Pudi Counter',
     description: '',
-    category: 'Drink'
+    category: 'Main Course'
   },
   {
     id: '25',
-    name: 'Khara After Lunch',
+    name: 'White rice',
     description: '',
-    category: 'Condiment'
+    category: 'Main Course'
   },
   {
     id: '26',
-    name: 'Finger Bowl',
+    name: 'Pepper rasam',
     description: '',
-    category: 'Condiment'
+    category: 'Main Course'
   },
   {
     id: '27',
-    name: 'Water Bottle',
+    name: 'Curd rice',
     description: '',
-    category: 'Drink'
+    category: 'Main Course'
   },
   {
     id: '28',
-    name: 'Naturals Blue Berry Ice Cream',
+    name: 'Sandige',
     description: '',
-    category: 'Dessert'
+    category: 'Accompaniments'
   },
   {
     id: '29',
-    name: 'Paan Shots',
+    name: 'Pickle counter',
+    description: '',
+    category: 'Accompaniments'
+  },
+  {
+    id: '30',
+    name: 'Dry fruit Cocktail – Ideal Ice Cream Mangalore',
+    description: '',
+    category: 'Desserts'
+  },
+  {
+    id: '31',
+    name: 'Cold Stone Ice Cream',
+    description: '',
+    category: 'Desserts'
+  },
+  {
+    id: '32',
+    name: 'Sugar Free Ice Cream-Vanilla Ice Cream',
+    description: '',
+    category: 'Desserts'
+  },
+  {
+    id: '33',
+    name: 'Fruits counter',
+    description: '',
+    category: 'Fruits'
+  },
+  {
+    id: '34',
+    name: 'Maghai Beeda',
     description: '',
     category: 'Paan'
   },
   {
-    id: '30',
+    id: '35',
     name: 'Thamboola',
     description: '',
     category: 'Paan'
