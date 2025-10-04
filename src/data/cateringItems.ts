@@ -1,4 +1,5 @@
 import type { CateringItem } from "../types";
+
 export const cateringItems: CateringItem[] = [
   {
     id: '1',

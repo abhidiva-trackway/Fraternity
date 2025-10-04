@@ -3,12 +3,37 @@ import { AnimatePresence, motion } from "framer-motion";
 import ScrollAnimatedCardGrid from "../components/ScrollAnimatedCardGrid";
 import About from "./About";
 import ShareButton from "../components/ShareButton";
+import { CateringMenus } from "../data/items";
+import { useEffect } from "react";
+
 
 const MainContent = ({ activeSection, setActiveSection }: { activeSection: string, setActiveSection: (section: string) => void }) => {
   const contactNumber = '9845222522';
   const whatsappLink = `https://wa.me/${contactNumber}`;
   const callLink = `tel:${contactNumber}`;
 
+  const weddingData = CateringMenus[0];
+
+ useEffect(() => {
+  // ✅ Dynamically decide which PDF to download
+  let pdfUrl = "";
+  if (weddingData.date === "2024-10-06") {
+    pdfUrl = "/6thoct.pdf";
+  } else if (weddingData.date === "2025-10-05") {
+    pdfUrl = "/5thoct.pdf";
+  }
+
+  // ✅ Only trigger download if pdfUrl is set
+  if (pdfUrl) {
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = `${weddingData.weddingName.replace(/\s+/g, "_")}_${weddingData.event}.pdf`;
+    link.target = "_blank"; // opens in a new tab if browser blocks auto download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+}, [weddingData.date, weddingData.weddingName, weddingData.event]);
 
 
   return (
@@ -124,7 +149,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
                 textShadow: '2px 2px 4px rgba(0,0,0,0.05)'
               }}
             >
-                Amrutha weds Nishanth       
+               {weddingData.weddingName}
         </motion.h1>
           </motion.div>:""}
 
@@ -140,18 +165,9 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
   transition={{ duration: 0.8, delay: 0.8 }}
   className="text-sm sm:text-base md:text-lg xl:text-xl text-amber-800/90 max-w-full mx-auto px-4 relative leading-relaxed whitespace-nowrap overflow-hidden"
 >
-  {/* <div className="relative z-10">
-    <br/>
-    <motion.span
-    initial={{ scaleX: 0 }}
-    animate={{ scaleX: 1 }}
-    transition={{ duration: 0.6, delay: 1.2 }}
-    className="absolute bottom-1 w-20 m-auto left-0 right-0 h-2 bg-amber-200/50 z-0"
-    style={{ originX: 0 }}
-  />
-  </div> */}
+
   <div className="relative z-10 text-4xl">
-     Today's Menu
+          Today's Menu 
   </div>
   <motion.span
     initial={{ scaleX: 0 }}
@@ -248,9 +264,13 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
-        className="mt-24 text-center text-amber-900/80 py-8 border-t border-amber-200/50"
+        className="mt-16 text-center text-amber-900/80 py-8 border-t border-amber-200/50"
       >
+
+      
         <div className="mb-4">
+          {/* MAKE it as box type with green colour */}
+        
           <p className="text-sm md:text-base mb-2">
             Get Smart QR & E-Cards -{' '}
             <a
