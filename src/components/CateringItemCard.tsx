@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import type { CateringItem } from '../types';
+import type {  CateringItem } from '../types';
 
 interface CateringItemCardProps {
   item: CateringItem;
@@ -9,17 +9,44 @@ interface CateringItemCardProps {
 const CateringItemCard = ({ item, index }: CateringItemCardProps) => {
   const direction = index % 2 === 0 ? -1 : 1;
   const categoryIcons = {
-  "sweets": "🍬",
-  "chats": "🧆",
-  "condiments": "🧂",
-  "salads": "🥗",
-  "vegetable palya": "🥕",
+  "welcome drink": "🥂",
   "starters": "🍢",
-  "accompaniments": "🥄",
-  "main course": "🍽️",
-  "drink": "🥤",
-  "dessert": "🍰",
-  "paan": "🌿"
+  "chats": "🥙",
+  "live continental counter": "🍕",
+  "live barbeque counter": "🔥",
+  "beverage counter": "🥤",
+  "soups": "🍲",
+  "north breads & gravies": "🍞",
+  "live dal counter": "🫘",
+  "live tawa subzi": "🥘",
+  "south breads & accompaniments": "🍛",
+  "main course": "🍱",
+  "salads": "🥗",
+  "dessert": "🍨",
+  "fruits counter": "🍇",
+  // "sweets": "🍬",
+  // "chats": "🧆",
+  // "condiments": "🧂",
+  // "salads": "🥗",
+  // "vegetable palya": "🥕",
+  // "starters": "🍢",
+  // "accompaniments": "🥄",
+  // // "main course": "🍽️",
+  // "drink": "🥤",
+  // "dessert": "🍰",
+  "paan": "🌿",
+  //   "welcome drink": "🥤",
+  // "starter": "🍢",
+  // "soup": "🍜",
+  // "north breads & gravies": "🍞",
+  // "south breads & accompaniments": "🍚",
+  // "main course": "🍽",
+  // // "accompaniments": "🧂",
+  // // "salads": "🥗",
+  // // "dessert": "🍰",
+  // // "paan": "🌿",
+  // "tambulam": "🥥"
+
   };
 function capitalizeWords(input: string): string {
   return input
@@ -28,6 +55,9 @@ function capitalizeWords(input: string): string {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 }
+
+
+
 
   const getCategoryIcon = () => {
     const lowerCategory = item.category.toLowerCase();
