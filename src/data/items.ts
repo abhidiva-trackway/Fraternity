@@ -3,7 +3,7 @@ import type {  CateringMenu } from "../types";
 export const CateringMenus: CateringMenu[] = [
   {
     weddingName: "Sai Sahithi & Harinath Reddy",
-    date: "2025-10-04",
+    date: "2025-10-05",
     event: "Dinner Buffet",
    menu : {
     "Welcome Drink": [

@@ -17,7 +17,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
  useEffect(() => {
   // ✅ Dynamically decide which PDF to download
   let pdfUrl = "";
-  if (weddingData.date === "2024-10-06") {
+  if (weddingData.date === "2025-10-06") {
     pdfUrl = "/6thoct.pdf";
   } else if (weddingData.date === "2025-10-05") {
     pdfUrl = "/5thoct.pdf";
