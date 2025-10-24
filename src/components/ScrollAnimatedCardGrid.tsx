@@ -10,7 +10,7 @@ const ScrollAnimatedCardGrid = () => {
 
   // 🧠 Determine current or upcoming event
   const { currentMenu, upcomingDate } = useMemo(() => {
-    const today = new Date().toISOString().split("T")[0];
+    const today = new Date().toLocaleDateString('en-CA');
     const sortedMenus = [...CateringMenus].sort(
       (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
     );
