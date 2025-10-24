@@ -16,13 +16,18 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
 
  useEffect(() => {
   // ✅ Dynamically decide which PDF to download
-  let pdfUrl = "";
-  if (weddingData.date === "2025-10-06") {
-    pdfUrl = "/6thoct.pdf";
-  } else if (weddingData.date === "2025-10-05") {
-    pdfUrl = "/5thoct.pdf";
-  }
+  const today = new Date().toISOString().slice(0, 10);
 
+  console.log('this day', today)
+  let pdfUrl = "";
+  if ('2025-10-25' === today) {
+    pdfUrl = "/25thoct.pdf";
+  } 
+  if('2025-10-26' === today){
+    pdfUrl = "/26thoct.pdf";
+  }
+ 
+  console.log('wdding date is', weddingData.date);
   // ✅ Only trigger download if pdfUrl is set
   if (pdfUrl) {
     const link = document.createElement("a");
