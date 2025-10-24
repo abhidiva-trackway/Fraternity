@@ -16,8 +16,7 @@ const MainContent = ({ activeSection, setActiveSection }: { activeSection: strin
 
  useEffect(() => {
   // ✅ Dynamically decide which PDF to download
-  const today = new Date().toISOString().slice(0, 10);
-
+  const today = new Date().toLocaleDateString('en-CA');
   console.log('this day', today)
   let pdfUrl = "";
   if ('2025-10-25' === today) {
